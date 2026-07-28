@@ -328,6 +328,28 @@ Implemented loading indicators, input validation, and graceful error messages to
 
 ---
 
+# 🤖 AI Usage
+
+This project was developed with the assistance of AI tools (ChatGPT and Google Gemini documentation) for brainstorming, debugging, understanding API integration, and improving code quality.
+
+All application logic, integration, testing, deployment, and customization were implemented and verified by the developer.
+
+---
+# ⚠️ Known Limitations
+
+- AI-generated responses may vary for the same input.
+- Very large notes may take longer to process depending on the AI response time.
+- Internet connectivity is required to generate flashcards and quizzes.
+- The application currently does not support user authentication or saving study sessions.
+
+---
+
+# ⏱️ Time Spent
+
+Approximately **8 hours** were spent designing, developing, testing, debugging, deploying, and documenting this project.
+
+---
+
 # 👨‍💻 Developer
 
 **Vyshnavi Moka**
