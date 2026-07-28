@@ -232,7 +232,9 @@ export async function generateStudyContent({
   count,
   signal,
 }) {
-  const response = await fetch("https://ai-study-buddy-b3ol.onrender.com", {
+  const response = await fetch(
+  "https://ai-study-buddy-b3ol.onrender.com/api/generate",
+  {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -244,7 +246,8 @@ export async function generateStudyContent({
       difficulty,
       flashcardCount: count,
     }),
-  });
+  }
+);
 
   const result = await response.json();
 
