@@ -233,21 +233,21 @@ export async function generateStudyContent({
   signal,
 }) {
   const response = await fetch(
-  "https://ai-study-buddy-b3ol.onrender.com/api/generate",
-  {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    signal,
-    body: JSON.stringify({
-      notes,
-      subject,
-      difficulty,
-      flashcardCount: count,
-    }),
-  }
-);
+    "https://ai-study-buddy-b3ol.onrender.com/api/generate",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      signal,
+      body: JSON.stringify({
+        notes,
+        subject,
+        difficulty,
+        flashcardCount: count,
+      }),
+    }
+  );
 
   const result = await response.json();
 
